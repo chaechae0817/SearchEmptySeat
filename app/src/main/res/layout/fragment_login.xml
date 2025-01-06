@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".LoginFragment">
+
+    <TextView
+        android:id="@+id/LoignIdtv"
+        android:layout_width="83dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="320dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="ID"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/LoginIdEdit"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/LoginIdEdit"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:hint="아이디를 입력해주세요."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/LoginPwdEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/LoginPwdtv"
+        android:layout_width="83dp"
+        android:layout_height="46dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="PASSWORD"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/LoginPwdEdit"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoignIdtv" />
+
+    <EditText
+        android:id="@+id/LoginPwdEdit"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="52dp"
+        android:ems="10"
+        android:hint="비밀번호를 입력해주세요."
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="#BECDDD"
+        android:gravity="center"
+        android:text="기다리기 싫어                                                                                                                                                                                                                     빈좌석 배치도 까지 확인하여 기다림 없이 편리하게 이용하세요."
+        android:textColor="#433E40"
+        android:textColorHint="#EDEDED"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="90dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button_basic"
+        android:text="로그인"
+        app:layout_constraintEnd_toStartOf="@+id/WestBtn"
+        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginPwdtv"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/WestBtn"
+        android:layout_width="90dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="84dp"
+        android:background="@drawable/button_basic"
+        android:text="회원가입"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginPwdEdit"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <RadioGroup
+        android:id="@+id/membershipRG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LoignIdtv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/businessBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="사업자로 로그인" />
+
+        <RadioButton
+            android:id="@+id/userBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="회원으로 로그인" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

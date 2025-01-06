@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BECDDD"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <net.daum.mf.map.api.MapView
+            android:id="@+id/map_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/WestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_basic"
+            android:text="양식"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/ChiBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_basic"
+            android:text="중식"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/KorBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_basic"
+            android:text="한식"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/JapBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_basic"
+            android:text="일식"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/FastBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_basic"
+            android:text="패스트푸드"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+</LinearLayout>

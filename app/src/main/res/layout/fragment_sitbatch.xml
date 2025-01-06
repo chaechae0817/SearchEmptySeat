@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#BECDDD"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/T0"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T1"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T2"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T3"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T4"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/T5"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T6"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T7"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T8"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T9"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/T10"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T11"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T12"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T13"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T14"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/T15"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T16"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T17"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T18"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T19"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/T20"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T21"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T22"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T23"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/T24"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/white" />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/seat2"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/seat2" />
+
+        <ImageView
+            android:id="@+id/seat4"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="40dp"
+
+            app:srcCompat="@drawable/seat4" />
+
+        <ImageView
+            android:id="@+id/seat5"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/seat5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_basic"
+            android:text="좌석배치등록" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_basic"
+            android:text="좌석현황등록" />
+
+    </LinearLayout>
+
+</LinearLayout>
