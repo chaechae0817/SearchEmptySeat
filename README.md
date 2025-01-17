@@ -16,6 +16,11 @@
 
 <br>
 
+## 기술 스택
+
+- **Android**: Java, Volley , KaKaoMap API , SharedPreferences 
+- **Backend**: Java, JSP, MySQL
+
 
 ## 서비스 UI
 <img src = "images/appinfo_1.png" width ="30%" /> <img src = "images/appinfo_4.png" width= "30%" />
